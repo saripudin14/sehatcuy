@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SehatCuy</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Navigation Bar -->
+    <nav class=" sticky top-0 bg-black shadow">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center">
+                <img src="image/ppcuy.webp" alt="Logo" class="h-20 w-20 mr-2 rounded-full">
+                <span class="text-xl font-bold text-white">SehatCuy</span>
+            </div>
+            <!-- Navigation Links -->
+            <div class="hidden md:flex space-x-6">
+                <a href="#" class="text-white hover:text-green-600">Home</a>
+                <a href="#services" class="text-white hover:text-green-600">Our Services</a>
+                <a href="#contact" class="text-white hover:text-green-600">Contact</a>
+            </div>
+            <!-- Register Button -->
+            <div>
+                <a href="index.html" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-blue-700">Daftar Cuy</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-700 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <div class="flex flex-col px-4 py-2">
+                <a href="#" class="text-gray-700 hover:text-blue-600 py-2">Home</a>
+                <a href="#services" class="text-gray-700 hover:text-blue-600 py-2">Our Services</a>
+                <a href="#contact" class="text-gray-700 hover:text-blue-600 py-2">Contact</a>
+                <a href="#register" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 mt-2">Daftar</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <header class="bg-green-600 text-white h-64 flex items-center justify-center">
+        <h1 class="text-4xl font-bold">Selamat Datang di SehatCuy</h1>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="max-w-7xl mx-auto py-10">
+        <h2 class="text-3xl font-bold text-center mb-6">Layanan Kami</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Service 1 -->
+            <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
+                <img src="image/ppp.jpeg" alt="Consultation" class="w-full h-48 object-cover rounded-md">
+                <h3 class="text-xl font-semibold mt-4">Konsultasi</h3>
+                <p class="mt-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam magnam,
+                    cum veniam quasi facilis molestias possimus architecto eum et officiis! Itaque possimus ducimus
+                    commodi temporibus ex libero minus nesciunt quod?</p>
+                <a href="#"
+                    class="mt-4 inline-block bg-green-500 text-white px-4 py-2 rounded hover:bg-blue-700">Pelajari lebih
+                    Lanjut</a>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
+                <img src="image/th (1).jpeg" alt="Online Pharmacy" class="w-full h-48 object-cover rounded-md">
+                <h3 class="text-xl font-semibold mt-4">Apotek Online</h3>
+                <p class="mt-2 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint
+                    eaque animi veritatis corrupti, deleniti neque, iusto harum sapiente sit nesciunt! Accusantium,
+                    quidem natus modi eveniet tenetur porro. Ab, nobis.
+                </p>
+                <a href="#"
+                    class="mt-4 inline-block bg-green-500 text-white px-4 py-2 rounded hover:bg-blue-700">Pelajari Lebih
+                    Lanjut</a>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
+                <img src="image/th (2).jpeg" alt="Health Monitoring" class="w-full h-48 object-cover rounded-md">
+                <h3 class="text-xl font-semibold mt-4">Cek Kesehatan</h3>
+                <p class="mt-2 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nam fuga
+                    vel consequatur culpa nisi magnam sapiente rerum laborum animi ad facere reprehenderit, incidunt quo
+                    necessitatibus ipsum, id minima perspiciatis?</p>
+                <a href="#"
+                    class="mt-4 inline-block bg-green-500 text-white px-4 py-2 rounded hover:bg-blue-700">Pelajari Lebih
+                    Lanjut</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="max-w-7xl mx-auto py-10">
+        <h2 class="text-3xl font-bold text-center mb-6">Hubungi Kami</h2>
+        <form id="contactForm" class="bg-white p-6 rounded-lg shadow-md">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700">Nama</label>
+                    <input type="text" id="name" name="name" required
+                        class="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-500"
+                        placeholder="Your Name">
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                    <input type="email" id="email" name="email" required
+                        class="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-500"
+                        placeholder="you@example.com">
+                </div>
+            </div>
+            <div class="mt-4">
+                <label for="subject" class="block text-sm font-medium text-gray-700">Subjek</label>
+                <input type="text" id="subject" name="subject" required
+                    class="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-500"
+                    placeholder="Subject">
+            </div>
+            <div class="mt-4">
+                <label for="message" class="block text-sm font-medium text-gray-700">Pesan</label>
+                <textarea id="message" name="message" required
+                    class="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-500"
+                    rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit"
+                class="mt-4 bg-green-500 text-white px-4 py-2 rounded-md hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-500">Kirim
+                Pesan</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="bg-black text-center text-white font-semibold">
+            <p>Copyright &copy;SARIPUDIN2024</p>
+        </div>
+    </footer>
+
+    <script src="cihuy.js"></script>
+</body>
+
+</html>
