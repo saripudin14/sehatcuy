@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Consultation Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+    <nav class=" sticky top-0 bg-black shadow">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center">
+                <img src="image/ppcuy.webp" alt="Logo" class="h-20 w-20 mr-2 rounded-full">
+                <span class="text-xl font-bold text-white">SehatCuy</span>
+            </div>
+            <!-- Register Button -->
+            <div>
+                <a href="dasboard.html" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-blue-700">Home</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-700 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <div class="flex flex-col px-4 py-2">
+                <a href="#" class="text-gray-700 hover:text-blue-600 py-2">Home</a>
+                <a href="#services" class="text-gray-700 hover:text-blue-600 py-2">Our Services</a>
+                <a href="#contact" class="text-gray-700 hover:text-blue-600 py-2">Contact</a>
+                <a href="#register" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 mt-2">Daftar</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Main Content -->
+    <main class="py-10">
+        <div class="max-w-7xl mx-auto px-4">
+            <!-- Services Section -->
+            <section>
+                <h2 class="text-2xl font-semibold mb-4 text-center">Layanan Kami</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="bg-white p-4 rounded shadow">
+                        <h3 class="font-bold">Konsultasi Umum</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, non doloremque voluptatem
+                            totam blanditiis fuga.</p>
+                    </div>
+                    <div class="bg-white p-4 rounded shadow">
+                        <h3 class="font-bold">Konsultasi Spesialis</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ipsam veritatis sapiente
+                            cupiditate iusto eius.</p>
+                    </div>
+                    <div class="bg-white p-4 rounded shadow">
+                        <h3 class="font-bold">Telemedis</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut provident dolore dignissimos
+                            vel perspiciatis accusantium.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Booking Form Section -->
+            <section class="mt-10">
+                <h2 class="text-2xl font-semibold mb-4 text-center">Buat Janji Temu</h2>
+                <form id="booking-form" class="bg-gray-300 p-6 rounded shadow">
+                    <div class="mb-4">
+                        <label for="name" class="block text-sm font-medium">Name</label>
+                        <input type="text" id="name" class="mt-1 block w-full border-gray-300 rounded-md" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-sm font-medium">Email</label>
+                        <input type="email" id="email" class="mt-1 block w-full border-gray-300 rounded-md" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="date" class="block text-sm font-medium">Preferred Date</label>
+                        <input type="date" id="date" class="mt-1 block w-full border-gray-300 rounded-md" required>
+                    </div>
+                    <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded">Submit</button>
+                </form>
+            </section>
+
+            <!-- Testimonials Section -->
+            <section class="mt-10">
+                <h2 class="text-2xl font-semibold mb-4">Testimonials</h2>
+                <div class="bg-white p-4 rounded shadow mb-4">
+                    <p>"wah setelah saya konsultasi langsung sembuh" - Musso</p>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <p>"sangat rekomended deh SehatCuy" - Samuel</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="bg-black text-center text-white font-semibold">
+            <p>Copyright &copy;SARIPUDIN2024</p>
+        </div>
+    </footer>
+</body>
+</html>
