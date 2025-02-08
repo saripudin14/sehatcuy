@@ -1,5 +1,8 @@
  ## 🌿 SehatCuy – Layanan Kesehatan dari Cuy Universe
-SehatCuy adalah platform layanan kesehatan berbasis web yang dikembangkan menggunakan GitHub Pages. Web ini dibuat untuk menyediakan informasi kesehatan dengan tampilan yang sederhana, responsif, dan mudah diakses oleh semua orang.
+
+
+## 🚀 Deskripsi:
+- SehatCuy adalah platform layanan kesehatan berbasis web yang dikembangkan menggunakan GitHub Pages. Web ini dibuat untuk menyediakan informasi kesehatan dengan tampilan yang sederhana, responsif, dan mudah diakses oleh semua orang.
 
 💡 Dibuat untuk memenuhi nilai UTS sebagai bagian dari proyek pengembangan web interaktif.
 
