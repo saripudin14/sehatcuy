@@ -1,16 +1,15 @@
-## SehatCuy 🏥🚀
-SehatCuy adalah platform layanan kesehatan yang dikembangkan sebagai bagian dari Ujian Tengah Semester (UTS). Proyek ini dirancang untuk memberikan pengalaman yang informatif, responsif, dan mudah digunakan bagi pengguna yang ingin mengakses layanan kesehatan secara digital.
+ ## 🌿 SehatCuy – Layanan Kesehatan dari Cuy Universe
+SehatCuy adalah platform layanan kesehatan berbasis web yang dikembangkan menggunakan GitHub Pages. Web ini dibuat untuk menyediakan informasi kesehatan dengan tampilan yang sederhana, responsif, dan mudah diakses oleh semua orang.
 
-✨ Fitur Utama
-🏥 Informasi Kesehatan – Menyediakan berbagai artikel dan informasi medis yang berguna.
-👩‍⚕️ Konsultasi Online – Memungkinkan pengguna untuk berkonsultasi dengan tenaga medis secara daring.
-📅 Pemesanan Janji Temu – Fitur untuk memesan jadwal konsultasi dengan dokter.
-📊 Dashboard Interaktif – Tampilan yang memudahkan pengguna dalam mengakses data kesehatan mereka.
-🌐 Responsif & Mudah Diakses – Dapat digunakan di berbagai perangkat, baik desktop maupun mobile.
+💡 Dibuat untuk memenuhi nilai UTS sebagai bagian dari proyek pengembangan web interaktif.
 
+✨ Fitur Utama:
+- ✅ Informasi Kesehatan – Artikel & tips kesehatan yang berguna bagi semua pengguna.
+- ✅ Konsultasi Online – Simulasi layanan konsultasi kesehatan melalui chatbot atau form online.
+- ✅ Desain Responsif – Tampilan yang modern dan dapat diakses dari berbagai perangkat.
+- ✅ Hosting dengan GitHub Pages – Mudah diakses tanpa perlu server tambahan.
 
-🛠 Teknologi yang Digunakan
-🖥 Frontend: HTML, CSS, JavaScript
-🎨 Framework: Bootstrap / Tailwind CSS
-⚙️ Backend: Node.js / Firebase (Opsional, jika digunakan)
-🚀 Version Control & Deployment: Git & GitHub Pages
+🛠 Teknologi yang Digunakan:
+- 🖥 HTML & CSS – Teknologi dasar untuk membangun tampilan dan interaksi.
+- 🎨 Tailwind CSS – Membantu dalam pembuatan desain yang minimalis dan estetis.
+- ⚡ GitHub Pages – Digunakan untuk meng-host web ini secara gratis dan mudah.
